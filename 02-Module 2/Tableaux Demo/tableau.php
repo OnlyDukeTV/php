@@ -61,10 +61,11 @@ print_r($fruits);
 
         }
     ?>
-    <ul>
+</ul>
+<ul>
         <?php
         foreach($films as  $film){
             ?>
             <li><?=$film["year"]?> - <?=$film["name"]?></li>
         <?php } ?>
-        <ul>
+        </ul>
